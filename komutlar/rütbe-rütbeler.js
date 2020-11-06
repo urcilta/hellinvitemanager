@@ -1,4 +1,4 @@
-﻿const Discord = require("discord.js");
+const Discord = require("discord.js");
 const Database = require("../Helpers/Database");
 
 exports.run = async (client, message, args) => {
