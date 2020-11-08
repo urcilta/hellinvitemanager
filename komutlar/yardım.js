@@ -1,4 +1,4 @@
-﻿const Discord = require('discord.js');
+const Discord = require('discord.js');
 const ayarlar = require('../ayarlar.json');
 exports.run = async (client, message, args) => {
    const filter = (reaction, user) => {
