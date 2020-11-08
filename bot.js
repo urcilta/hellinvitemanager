@@ -1,4 +1,4 @@
-﻿﻿const fs = require('fs');
+const fs = require('fs');
 const db = require('quick.db')
 const wiodb = require('wio.db')
 const ms2 = require('parse-ms')
