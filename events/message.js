@@ -5,7 +5,6 @@ const sure = 2.5
 const beklememesaji = `**Bu Komutu Kullanabilmek İçin \`${sure}\` Saniye Kadar Beklemelisin!!**` //Komut bekleme mesaj?
 const sahipbeklemesi = false //Sahip bekleme ayar? (false=kapal?, true=aç?k)
 let yazma = new Set();
-//botu kasall?n?
 module.exports = async message => {
 
 const args = message.content
