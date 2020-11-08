@@ -23,6 +23,7 @@ module.exports = (client, msg) => {
         .setColor("ORANGE")
       .setAuthor("Gloss", client.user.AvatarURL)
         .setDescription(msg.author.tag + " **\`Spam Yapmayı Kes Yoksa Susturulursun!\`**")
+      .setThumbnail("https://images-ext-1.discordapp.net/external/WcOJUVbW15gkbqHScHgLgnTBsAub-oj5lsbNVFh1WeI/https/cdn.discordapp.com/emojis/715166977315962917.gif?format=png");
       msg.channel.send(sendeddd).then(stopspam => {
         setTimeout(() => {
           stopspam.delete();
