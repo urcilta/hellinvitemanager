@@ -8,7 +8,7 @@ exports.run = async (client, message, args) => {
     const db2 = new Database("./Servers/" + message.guild.id, "Invites");
 
 db2.set("invites")
-message.channel.send("Davetler Sıfırlandı")
+message.channel.send("Tüm Kullanıcıların Davetleri Sıfırlandı")
 }
 
 exports.conf = {

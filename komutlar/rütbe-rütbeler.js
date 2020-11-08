@@ -10,7 +10,7 @@ exports.run = async (client, message, args) => {
         var yok = new Discord.MessageEmbed()
             .setAuthor("Hiç Bir Rank Ayarlanmamış")
             .setDescription("Ayarlamak İçin !rütbe-ekle @rol davetsayi");
-            return message.channel.send(yok);
+             return message.channel.send(yok);
         }
 
     var embed = new Discord.MessageEmbed()
