@@ -5,12 +5,12 @@ exports.run = async (client, message, args) => {
     const db = new Database("./Servers/" + message.guild.id, "Rewards");
     var data = db.get(`rewards`) || {};
 
-      var list = data.sort((x, y) => y.targetInvite - x.targetInvite);
+    var list = data.sort((x, y) => y.targetInvite - x.targetInvite);
       if(list.length === 0){
         var yok = new Discord.MessageEmbed()
             .setAuthor("Hiç Bir Rank Ayarlanmamış")
             .setDescription("Ayarlamak İçin !rütbe-ekle @rol davetsayi");
-             return message.channel.send(yok);
+            return message.channel.send(yok);
         }
 
     var embed = new Discord.MessageEmbed()
