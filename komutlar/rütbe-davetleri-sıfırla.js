@@ -19,7 +19,7 @@ exports.conf = {
 };
 exports.help = {
   name: 'davetleri-sıfırla',
-  description: 'Logo Yaparsınız',
-  usage: 'm-logo <yazı>'
+  description: '',
+  usage: ''
 };
 
